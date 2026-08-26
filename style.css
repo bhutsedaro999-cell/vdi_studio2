@@ -1,0 +1,22 @@
+*{box-sizing:border-box}
+body{margin:0;background:#08080d;color:#eee;font-family:Arial,Helvetica,sans-serif}
+header{height:68px;display:flex;align-items:center;gap:30px;padding:0 5%;background:#0c0c13;border-bottom:1px solid #242432;position:sticky;top:0;z-index:5}
+.logo{font-size:24px;font-weight:900}.logo span{color:#9b4dff}
+nav{display:flex;gap:22px}nav a{color:#bbb;text-decoration:none}nav a:hover{color:#fff}
+#search{margin-left:auto;width:230px;padding:11px 14px;border-radius:10px;border:1px solid #303040;background:#15151e;color:white}
+.hero{min-height:410px;padding:70px 8%;display:flex;align-items:center;background:radial-gradient(circle at 75% 45%,#54209b 0,#21113d 30%,#09090e 68%)}
+.hero h1{font-size:56px;line-height:1.05;margin:10px 0}.hero h1 span{color:#a65cff}
+.hero p{max-width:560px;color:#bbb;line-height:1.6}.tag{color:#b76cff!important;font-weight:bold}
+.btn{display:inline-block;margin-top:18px;padding:13px 20px;border-radius:10px;background:#792fe0;color:white;text-decoration:none;font-weight:bold}
+.section{padding:42px 6%}.section-title{display:flex;justify-content:space-between;align-items:center}
+.section h2{font-size:28px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:20px}
+.card{background:#12121a;border:1px solid #242431;border-radius:13px;overflow:hidden;cursor:pointer;transition:.2s}
+.card:hover{transform:translateY(-5px);border-color:#8d42e8}
+.poster{height:245px;background:linear-gradient(145deg,#27133e,#6329a8);display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:900;color:#fff}
+.card-body{padding:13px}.card h3{margin:0 0 7px;font-size:17px}.meta{font-size:13px;color:#999}
+.chips{display:flex;gap:10px;flex-wrap:wrap}.chips button{background:#171722;color:#ddd;border:1px solid #303040;border-radius:20px;padding:9px 15px;cursor:pointer}.chips button:hover{border-color:#984cff}
+.modal{position:fixed;inset:0;background:#000b;display:flex;align-items:center;justify-content:center;padding:20px;z-index:10}.hidden{display:none}
+.modal-box{position:relative;width:min(700px,100%);background:#12121a;border:1px solid #303040;border-radius:15px;padding:28px}.close{position:absolute;right:14px;top:10px;background:none;border:0;color:#fff;font-size:30px;cursor:pointer}
+.player{height:300px;margin-top:20px;border-radius:12px;background:#050507;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#aaa}.play-icon{font-size:50px;color:#9c4dff}
+footer{text-align:center;padding:30px;color:#777;border-top:1px solid #20202b;font-size:13px}
+@media(max-width:700px){header{gap:12px;padding:0 4%}nav{display:none}#search{width:150px}.hero{padding:50px 7%}.hero h1{font-size:42px}.poster{height:210px}}
