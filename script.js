@@ -6,7 +6,7 @@ const anime = [
     episodes: [
       {
         number: 1,
-        video: "videos/episode-2.mp4"
+        video: "videos/episode-1.mp4"
       },
       {
         number: 2,
