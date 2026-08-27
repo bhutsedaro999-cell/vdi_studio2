@@ -17,7 +17,8 @@ nav{display:flex;gap:22px}nav a{color:#bbb;text-decoration:none}nav a:hover{colo
 .chips{display:flex;gap:10px;flex-wrap:wrap}.chips button{background:#171722;color:#ddd;border:1px solid #303040;border-radius:20px;padding:9px 15px;cursor:pointer}.chips button:hover{border-color:#984cff}
 .anime-card img{
   .anime-card{
-  width:100%;
+  width:700%;
+  
   }
 .anime-card img{
   height:180px;
