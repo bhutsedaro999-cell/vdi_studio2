@@ -32,7 +32,7 @@ function render(list) {
 
   grid.innerHTML = list.map((a, i) => `
     <article class="card" data-index="${i}">
-      <div class="poster">${a.icon}</div>
+      <img class="poster" src="images/IMG_20260827_064013.jpg" alt="${a.title}">
 
       <div class="card-body">
         <h3>${a.title}</h3>
