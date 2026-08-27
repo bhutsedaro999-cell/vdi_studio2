@@ -1,12 +1,12 @@
 const anime = [
-  {title:"Shadow Warrior", genre:"Action", episodes:12, icon:"SW"},
-  {title:"Sky Legends", genre:"Fantasy", episodes:24, icon:"SL"},
-  {title:"Ocean Quest", genre:"Adventure", episodes:18, icon:"OQ"},
-  {title:"School Days", genre:"Comedy", episodes:12, icon:"SD"},
-  {title:"Dragon Realm", genre:"Action", episodes:36, icon:"DR"},
-  {title:"Moon Hero", genre:"Fantasy", episodes:13, icon:"MH"}
+    const anime = [
+  {
+    title: "Solo Leveling",
+    genre: "Action",
+    episodes: 12,
+    icon: "SL"
+  }
 ];
-
 const grid = document.getElementById("animeGrid");
 const count = document.getElementById("count");
 const search = document.getElementById("search");
